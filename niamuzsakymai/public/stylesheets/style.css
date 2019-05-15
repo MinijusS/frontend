@@ -1,0 +1,81 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+ul {
+  list-style-type:none;
+  margin-left: -20px;
+}
+
+.order {
+  padding: 20px;
+  margin-bottom: 15px;
+  background-color:#dfe6e9;
+  border-radius: 15px;
+}
+
+.done {
+  background-color: #6dff99;
+}
+
+.number {
+  display: -webkit-inline-box;
+  border: solid;
+  border-color: #34495e;
+  border-radius: 5px;
+  background-color: #2ecc71;
+  width: 50px;
+  height: 50px;
+  padding: 0px 12px;
+}
+
+#forma {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form-group {
+  margin-right: 10px;
+}
+
+.form-control {
+  margin-bottom: 10px;
+}
+.confirm {
+  margin-bottom: 0rem;
+}
+.removeBtn {
+  display: block;
+  margin-bottom: 15px;
+}
+
+#mygtukas {
+  margin-right: 10px;
+}
+
+.mygtukai {
+  display: -webkit-inline-box;
+  margin-right: 20px;
+  float: right;
+}
+
+.phone {
+  margin-right: 40px;
+}
+
+.unhide {
+  cursor: pointer;
+}
+
+#clone {
+  margin-right: 20px;
+}
+
+.finalOrder {
+  margin-top: 20px;
+}
