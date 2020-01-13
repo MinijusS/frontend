@@ -6,5 +6,13 @@ table, td, th {
 }
 
 tbody tr:nth-child(even) {
-    background-color: rgb(240, 240, 240);
+    background-color: #eaeaea;
+}
+
+tbody tr:nth-child(odd) td:nth-child(5){
+    background-color: rgb(58, 226, 17);
+}
+
+tbody tr:nth-child(even) td:nth-child(6){
+    background-color: rgb(226, 17, 17);
 }
