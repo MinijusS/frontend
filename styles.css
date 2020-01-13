@@ -1,0 +1,10 @@
+table, td, th {
+    border: solid 1px black;
+    padding: 10px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgb(240, 240, 240);
+}
