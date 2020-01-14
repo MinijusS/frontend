@@ -1,18 +1,67 @@
-table, td, th {
-    border: solid 1px black;
-    padding: 10px;
-    border-collapse: collapse;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 0;
+}
+
+div {
+    background-color: orange;
+    border-radius: 15px;
+    border: solid 5px grey;
+    margin: 10px;
+    padding: 20px;
     text-align: center;
 }
 
-tbody tr:nth-child(even) {
-    background-color: #eaeaea;
+header {
+    margin: 20px auto;
+    border-radius: 15px;
+    border: solid 5px grey;
+    background-color: aliceblue;
+    height: 10vh;
 }
 
-tbody tr:nth-child(odd) td:nth-child(5){
-    background-color: rgb(58, 226, 17);
+article {
+    height: 40%;
+    border: solid 5px grey;
+    border-radius: 15px;
 }
 
-tbody tr:nth-child(even) td:nth-child(6){
-    background-color: rgb(226, 17, 17);
+h1 {
+    font-size: 35px;
+}
+
+p {
+    font-size: 20px;
+}
+
+nav, aside {
+    vertical-align: top;
+    display: inline-block;
+    width: calc(25% - 4px);
+    height: 75vh;
+    border-radius: 15px;
+    border: solid 5px grey;
+    background-color: aliceblue;
+}
+
+section {
+    display: inline-block;
+    width: calc(50% - 4px);
+    padding: 0 10px;
+    height: 75vh;
+    margin-right: 6px;
+    margin-left: 6px;
+    border-radius: 15px;
+    border: solid 5px grey;
+    background-color: aliceblue;
+}
+
+footer {
+    border-radius: 15px;
+    border: solid 5px grey;
+    background-color: aliceblue;
+    height: 10vh;
+    margin: 20px auto;
 }
