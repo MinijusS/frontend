@@ -1,43 +1,55 @@
-* {
+*, *:after, *:before {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-size: 0;
-    text-align: center;
 }
 
-h1 {
-    font-size: 20px;
+body {
+    background-color: azure;
 }
 
-header, nav, footer {
-    height: 10vh;
+.card {
+    margin: 10px;
+    width: 800px;
+    background-color: white;
+    border: solid 1px #eaeaea;
+    border-top: solid 3px #0984e3;
+    padding: 10px;
+    float: left;
 }
 
-header, nav, aside, section, article, footer {
-    border: solid 10px purple;
+.card h2 {
+    margin-top: 10px;
+    color: #0984e3;
 }
 
-div {
+.card p {
+    font-size: 13px;
+    margin: 10px;
+}
+
+.years {
+    font-size: 13px;
+    margin-top: 5px;
+    color: #b2bec3;
+}
+
+.card img {
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 120px;
+    float: left;
+}
+
+.card a {
     display: inline-block;
-    width: 60vw;
+    padding: 10px;
+    background-color: #0984e3;
+    color: white;
+    text-decoration: none;
 }
 
-aside {
-    height: 70vh;
-    width: 40vw;
-    display: inline-block;
-    vertical-align: top;
-}
-
-section, article {
-    height: 35vh;
-}
-
-nav, section, article, aside, footer {
-    border-top: 0;
-}
-
-aside {
-    border-left: 0;
+.half {
+    width: 400px;
 }
