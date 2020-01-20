@@ -1,0 +1,132 @@
+*, *:after, *:before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+header .wrap {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.wrap {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: rgb(218,190,181);
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:not(:last-child) {
+    margin-right: 30px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.heading {
+    margin: 30px 0;
+}
+
+main {
+    background-color: rgb(250,245,240);
+    padding-top: 50px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid grey;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+main p {
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+main img {
+    float: right;
+    height: 200px;
+    margin: 0 0 10px 10px;
+}
+
+.bad-art {
+    background-color: rgb(245,245,245);
+    padding: 50px 0;
+    border-bottom: 2px solid grey;
+}
+
+.box {
+    width: 470px;
+    border: solid 2px rgb(218,190,181);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.box-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+li {
+    list-style-type: none;
+    border-bottom: solid 1px black;
+    padding-top: 10px;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.photos {
+    background-color: rgb(250,245,240);
+    padding: 50px 0;
+    border-bottom: 2px solid grey;
+}
+
+.photos img {
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    border: solid 2px black;
+}
+
+.rowofphotos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(217,189,180);
+    padding: 50px 0;
+}
