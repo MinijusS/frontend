@@ -23,7 +23,7 @@
                         <li><a href="#">Prisijungti</a></li>
                     </ul>
                 </nav>
-                <div class="burger">
+                <div id="burger">
                     <div class="burger-line"></div>
                     <div class="burger-line"></div>
                     <div class="burger-line"></div>
@@ -74,13 +74,13 @@
                 <h2>Contact us or find more about us</h2>
                 <div class="contact">
                     <form method="post" class="contact-form">
-                        <input type="text" placeholder="First Name">
-                        <input type="text" placeholder="Last Name">
-                        <input type="email" placeholder="Email">
-                        <textarea class="message" placeholder="Message..."></textarea>
+                        <input type="text" placeholder="First Name" required>
+                        <input type="text" placeholder="Last Name" required>
+                        <input type="email" placeholder="Email" required>
+                        <textarea class="message" placeholder="Message..." required></textarea>
                         <input type="submit" value="Send Message">
                     </form>
-                    <iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJN9btHa6W3UYRX0xXcTIVtxU&key=AIzaSyDMIOZgOKM2lDkqf5Hj6JpzjxcmxKS4OO4" allowfullscreen></iframe>
+                    <iframe src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJN9btHa6W3UYRX0xXcTIVtxU&key=AIzaSyDMIOZgOKM2lDkqf5Hj6JpzjxcmxKS4OO4" allowfullscreen></iframe>
                 </div>
             </div>
         </section>
@@ -88,4 +88,21 @@
             <h4>Copyright &copy; 2020.</h4>
         </footer>
     </body>
+    <script>
+        var burger = document.getElementById("burger");
+        var menu = document.querySelector("nav");
+        burger.onclick = function(){
+            menu.classList.toggle("active");
+        };
+        function slideUp(el) {
+            var elem = document.getElementById(el);
+            elem.style.transition = "all 2s ease-in-out";
+            elem.style.height = "0px";
+            }
+        function slideDown(el) {
+            var elem = document.getElementById(el);
+            elem.style.transition = "all 2s ease-in-out";
+            elem.style.height = "400px";
+            }
+    </script>
 </html>
