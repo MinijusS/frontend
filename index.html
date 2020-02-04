@@ -8,101 +8,108 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     </head>
     <body>
-        <header>
-            <div class="wrapper">
-                <img class="logo" src="https://alynas.lt/wp-content/uploads/2017/06/alynas.png">
-                <form method="POST" class="center-nav">
-                    <i class="material-icons">search</i>
-                    <input type="search" class="search" placeholder="Search...">
-                </form>
-                <nav>
+        <header class="header">
+            <div class="header--wrapper">
+                <a href="#" class="header__logo"><span class="logo--bold">Br</span> Architects</a>
+                <nav class="header__nav">
                     <ul>
-                        <li><a href="#">Apie Mus</a></li>
-                        <li><a href="#">Kontaktai</a></li>
-                        <li><a href="#">Registracija</a></li>
-                        <li><a href="#">Prisijungti</a></li>
+                        <li><a href="#"></a>Projects</li>
+                        <li><a href="#"></a>About</li>
+                        <li><a href="#"></a>Contact</li>
                     </ul>
                 </nav>
-                <div id="burger">
-                    <div class="burger-line"></div>
-                    <div class="burger-line"></div>
-                    <div class="burger-line"></div>
-                </div>
             </div>
         </header>
-        <main>
-            <div class="wrapper">
-                <div class="slogan">
-                    <h1>Alynas - alus internetu</h1>
-                </div>
-            </div>
-        </main>
-        <section>
-            <div class="wrapper">
-                <h2>Musu platus alaus asortimentas</h2>
-                <div class="list">
-                    <div class="beer-container">
-                        <img src="https://alynas.lt/wp-content/uploads/2016/08/volfas-engelman-imperial-porteris-min-169x300.png">
-                        <h3>Pilsner</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab aliquam officiis magnam aspernatur dolorum sapiente veritatis quasi labore accusamus. Itaque minus eum, ullam placeat neque consequuntur aspernatur velit accusamus blanditiis!</p>
+        <section class="section">
+            <h1 class="section__slogan slogan--bold">BR</h1>
+            <h1 class="section__slogan slogan--none">Architects</h1>
+        </section>
+        <section class="projects">
+            <div class="projects--wrapper">
+                <h1 class="projects__title">Projects</h1>
+                <div class="projects__blocks">
+                    <div class="project">
+                        <span class="project__title">Summer House</span>
+                        <img class="project__image" src="https://www.w3schools.com/w3images/house5.jpg">
                     </div>
-                    <div class="beer-container">
-                        <img src="https://static.pricer.lt/dynamic/foreign.png?image=https%3A%2F%2Fwww.barbora.lt%2Fapi%2FImages%2FGetInventoryImage%3Fid%3D688f3692-0178-4d07-ad81-287835383010">
-                        <h3>Pilsner</h3>
-                        <p>Lorem ipsum, </p>
+                    <div class="project">
+                        <span class="project__title">Brick House</span>
+                        <img class="project__image" src="https://www.w3schools.com/w3images/house2.jpg">
                     </div>
-                    <div class="beer-container">
-                        <img src="https://alynas.lt/wp-content/uploads/2016/08/Warsteiner-Voki%C5%A1kas-Pilsneris-Vokietija-48-108x300.png">
-                        <h3>Pilsner</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab aliquam officiis magnam aspernatur dolorum sapiente veritatis quasi labore accusamus. Itaque minus eum, ullam placeat neque consequuntur aspernatur velit accusamus blanditiis!</p>
+                    <div class="project">
+                        <span class="project__title">Renovated</span>
+                        <img class="project__image" src="https://www.w3schools.com/w3images/house3.jpg">
                     </div>
-                    <div class="beer-container">
-                        <img src="https://cdn11.bigcommerce.com/s-8bdbu5ahkn/images/stencil/1280x1280/products/8655/8895/8804618862622__08883.1555610378.png?c=2?imbypass=on">
-                        <h3>Pilsner</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam ullam, animi accusamus consequuntur molestiae aperiam reprehenderit adipisci, culpa corrupti rerum odit mollitia deserunt quasi</p>
+                    <div class="project">
+                        <span class="project__title">Barn House</span>
+                        <img class="project__image" src="https://www.w3schools.com/w3images/house4.jpg">
                     </div>
-                    <div class="beer-container">
-                        <img src="https://alynas.lt/wp-content/uploads/2016/08/Alyno-%C5%A1viesusis-alaus-min-140x300.png">
-                        <h3>Pilsner</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam ullam, animi accusamus consequuntur molestiae aperiam reprehenderit adipisci, culpa corrupti rerum odit mollitia deserunt quasi</p>
+                    <div class="project">
+                        <span class="project__title">Summer House</span>
+                        <img class="project__image" src="https://www.w3schools.com/w3images/house5.jpg">
                     </div>
                 </div>
             </div>
         </section>
-        <section>
-            <div class="wrapper">
-                <h2>Contact us or find more about us</h2>
-                <div class="contact">
-                    <form method="post" class="contact-form">
-                        <input type="text" placeholder="First Name" required>
-                        <input type="text" placeholder="Last Name" required>
-                        <input type="email" placeholder="Email" required>
-                        <textarea class="message" placeholder="Message..." required></textarea>
-                        <input type="submit" value="Send Message">
-                    </form>
-                    <iframe src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJN9btHa6W3UYRX0xXcTIVtxU&key=AIzaSyDMIOZgOKM2lDkqf5Hj6JpzjxcmxKS4OO4" allowfullscreen></iframe>
+        <section class="about">
+            <div class="about--wrapper">
+                <h1 class="about__title">About</h1>
+                <p class="about__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi cum nesciunt nam eaque neque voluptates aperiam possimus delectus alias dolor doloremque eligendi, architecto non illum voluptate eos quos omnis porro.</p>
+                <div class="about__persons">
+                    <div class="about__person">
+                        <div class="about__person__image">
+                            <img class="person__image" src="https://www.w3schools.com/w3images/team2.jpg">
+                        </div>
+                        <h2 class="person__name">John Doe</h2>
+                        <h4 class="person__role">CEO & Founder</h4>
+                        <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                        <a href="#" class="person__btn">Contact</a>
+                    </div>
+                    <div class="about__person">
+                        <div class="about__person__image">
+                            <img class="person__image" src="https://www.w3schools.com/w3images/team2.jpg">
+                        </div>
+                        <h2 class="person__name">John Doe</h2>
+                        <h4 class="person__role">CEO & Founder</h4>
+                        <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                        <a href="#" class="person__btn">Contact</a>
+                    </div>
+                    <div class="about__person">
+                        <div class="about__person__image">
+                            <img class="person__image" src="https://www.w3schools.com/w3images/team2.jpg">
+                        </div>
+                        <h2 class="person__name">John Doe</h2>
+                        <h4 class="person__role">CEO & Founder</h4>
+                        <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                        <a href="#" class="person__btn">Contact</a>
+                    </div>
+                    <div class="about__person">
+                        <div class="about__person__image">
+                            <img class="person__image" src="https://www.w3schools.com/w3images/team2.jpg">
+                        </div>
+                        <h2 class="person__name">John Doe</h2>
+                        <h4 class="person__role">CEO & Founder</h4>
+                        <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                        <a href="#" class="person__btn">Contact</a>
+                    </div>
                 </div>
             </div>
         </section>
-        <footer>
-            <h4>Copyright &copy; 2020.</h4>
-        </footer>
+        <section class="contact">
+            <div class="contact--wrapper">
+                <h1 class="contact__title">Cantact Us</h1>
+                <p class="about__paragraph">Lets get in touch and talk about your next project.</p>
+                <form class="contact__form">
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Email">
+                    <input type="text" placeholder="Subject">
+                    <textarea placeholder="Comment"></textarea>
+                    <submit class="form__btn">Send Message</submit>
+                </form>
+                <div class="contact__image__container">
+                    <img class="contact__image" src="https://www.w3schools.com/w3images/map.jpg">
+                </div>
+            </div>
+        </section>
     </body>
-    <script>
-        var burger = document.getElementById("burger");
-        var menu = document.querySelector("nav");
-        burger.onclick = function(){
-            menu.classList.toggle("active");
-        };
-        function slideUp(el) {
-            var elem = document.getElementById(el);
-            elem.style.transition = "all 2s ease-in-out";
-            elem.style.height = "0px";
-            }
-        function slideDown(el) {
-            var elem = document.getElementById(el);
-            elem.style.transition = "all 2s ease-in-out";
-            elem.style.height = "400px";
-            }
-    </script>
 </html>
