@@ -1,0 +1,13 @@
+@use 'variables' as *;
+%buttons {
+    padding: 10px 30px;
+    background-color: white;
+    font-size: 1.1em;
+    text-transform: uppercase;
+}
+
+.submit {
+    @extend %buttons;
+    background-color: $black;
+    color: white;
+}

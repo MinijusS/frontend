@@ -1,0 +1,37 @@
+@use 'variables' as *;
+header {
+    position: sticky;
+    top: 0;
+    background-color: $black;
+    a {
+        display: block;
+    }
+
+    img {
+        display: block;
+        margin: 0 auto;
+        height: 60px;
+    }
+
+    ul {
+        display: none;
+    }    
+
+    @media screen and (min-width: $desktop) {
+        nav {
+            display: grid;
+            grid-auto-columns: min-content;
+            grid-auto-flow: column;
+            justify-content: space-between;
+        }
+
+        ul {
+            list-style-type: none;
+            display: grid;
+            grid-auto-columns: min-content;
+            grid-auto-flow: column;
+            grid-gap: 20px;
+            align-items: center;
+        }
+    }
+}

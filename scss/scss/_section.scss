@@ -1,0 +1,55 @@
+@use 'variables' as *;
+@use 'button';
+
+.products {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    .card {
+        h3 {
+            text-transform: uppercase;
+        }
+
+        .img-container {
+            height: 10em;
+            .product {
+                display: block;
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+    @media screen and (min-width: $tablet) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    @media screen and (min-width: $desktop) {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    input {
+        font-size: 1.1em;
+        outline: none;
+        padding: 10px;
+        border: none;
+        border-bottom: 3px solid $black;
+        grid-column: 1 / -1;
+    }
+    .fieldset {
+        display: grid;
+        grid-column: 1 / -1;
+        grid-template-columns: 1fr 1fr;
+    }
+    button {
+        grid-column: 2;
+    }
+    @media screen and (min-width: $desktop) {
+        width: 50%;
+        margin: 0 auto;
+    }
+}

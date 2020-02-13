@@ -1,0 +1,29 @@
+@use 'variables' as *;
+@use 'mixins' as *;
+@use 'navigation';
+@use 'section';
+@use 'footer';
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    color: $black;
+}
+
+.page_inner {
+    margin: 0 30px;
+}
+
+a {
+    color: $white;
+    text-decoration: none;
+}
+
+main {
+    text-align: center;
+    display: grid;
+}

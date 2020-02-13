@@ -1,0 +1,145 @@
+header {
+  position: sticky;
+  top: 0;
+  background-color: #1e272e;
+}
+header a {
+  display: block;
+}
+header img {
+  display: block;
+  margin: 0 auto;
+  height: 60px;
+}
+header ul {
+  display: none;
+}
+@media screen and (min-width: 1025px) {
+  header nav {
+    display: grid;
+    grid-auto-columns: min-content;
+    grid-auto-flow: column;
+    justify-content: space-between;
+  }
+  header ul {
+    list-style-type: none;
+    display: grid;
+    grid-auto-columns: min-content;
+    grid-auto-flow: column;
+    grid-gap: 20px;
+    align-items: center;
+  }
+}
+
+.submit {
+  padding: 10px 30px;
+  background-color: white;
+  font-size: 1.1em;
+  text-transform: uppercase;
+}
+
+.submit {
+  background-color: #1e272e;
+  color: white;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+}
+.products .card h3 {
+  text-transform: uppercase;
+}
+.products .card .img-container {
+  height: 10em;
+}
+.products .card .img-container .product {
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+@media screen and (min-width: 768px) {
+  .products {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 1025px) {
+  .products {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+form input {
+  font-size: 1.1em;
+  outline: none;
+  padding: 10px;
+  border: none;
+  border-bottom: 3px solid #1e272e;
+  grid-column: 1/-1;
+}
+form .fieldset {
+  display: grid;
+  grid-column: 1/-1;
+  grid-template-columns: 1fr 1fr;
+}
+form button {
+  grid-column: 2;
+}
+@media screen and (min-width: 1025px) {
+  form {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
+footer {
+  color: #dfe6e9;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #1e272e;
+}
+footer .footer-content {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+footer ul {
+  list-style-type: none;
+}
+@media screen and (min-width: 768px) {
+  footer .footer-content {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  color: #1e272e;
+}
+
+.page_inner {
+  margin: 0 30px;
+}
+
+a {
+  color: #dfe6e9;
+  text-decoration: none;
+}
+
+main {
+  text-align: center;
+  display: grid;
+}
+
+/*# sourceMappingURL=style.css.map */
